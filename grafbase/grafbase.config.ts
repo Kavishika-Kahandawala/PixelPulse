@@ -19,7 +19,7 @@ const Project =g.model('Project',{
   category:g.string().search(),
   createdBy:g.relation(()=>User),
 
-})
+}) 
 
 export default config({
   schema: g
