@@ -28,6 +28,7 @@ const Modal = ({ children }: { children: ReactNode }) => {
       onClick={handleClick}
     >
       <button
+        title="close"
         type="button"
         onClick={onDismiss}
         className="absolute top-4 right-8"
