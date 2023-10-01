@@ -5,7 +5,10 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-const ProjectActions = ({ projectId }: { projectId: string }) => {
+type Props = {
+  projectId: string;
+};
+const ProjectActions = ({ projectId }: Props) => {
   const router = useRouter();
   const [isDeleting, setIsDeleting] = useState(false);
 
@@ -36,7 +39,8 @@ const ProjectActions = ({ projectId }: { projectId: string }) => {
         className={`flex justify-center items-center p-3 text-gray-100 hover:bg-red-600 rounded-lg text-sm font-medium ${
           isDeleting ? "bg-gray" : "bg-primary-purple"
         }`}
-        title="Delete" onClick={handleDeleteProject}
+        title="Delete"
+        onClick={handleDeleteProject}
       >
         <Image src={"/trash.svg"} width={15} height={15} alt="Delete" />
       </button>

@@ -27,13 +27,13 @@ const ProjectCard = ({ id, image, title, name, avatarUrl, userId }: Props) => {
     <div className="flex justify-center items-center flex-col rounded-2xl drop-shadow-card">
       <Link
         href={`/project/${id}`}
-        className="flex justify-center items-center group relative w-full h-full"
+        className="flex justify-center items-center group relative"
       >
         <Image
           src={image}
           width={414}
           height={314}
-          className="w-full h-full object-cover rounded-2xl"
+          className="rounded-2xl w-100 h-60 object-cover"
           alt="Project Image"
         />
         <div className="hidden group-hover:flex  justify-end items-end w-full h-1/3 bg-gradient-to-b from-transparent to-black/50 rounded-b-2xl gap-2 absolute bottom-0 right-0 font-semibold text-lg text-white p-4">

@@ -42,7 +42,7 @@ const RelatedProjects = async ({ userID, projectId }: Props) => {
                 src={node?.image}
                 width={414}
                 height={314}
-                className="w-full h-full object-cover rounded-2xl"
+                className="w-100 h-60 object-cover rounded-2xl"
                 alt={node?.title}
               />
               <div className="hidden group-hover:flex justify-end items-end w-full h-1/3 bg-gradient-to-b from-transparent to-black/50 rounded-b-2xl gap-2 absolute bottom-0 right-0 font-semibold text-lg text-white p-4">
