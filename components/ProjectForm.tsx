@@ -13,7 +13,7 @@ import { useRouter } from "next/navigation";
 type Props = {
   type: string;
   session: SessionInterface;
-  project: ProjectInterface;
+  project?: ProjectInterface;
 };
 
 export default function ProjectForm({ type, session, project }: Props) {
