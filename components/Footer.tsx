@@ -25,7 +25,7 @@ const FooterColumn = ({ title, links }: ColumnProps) => {
       </ul>
     </div>
   );
-};
+}; 
 
 const renderFooterColumns = ({ start, end }: renderFooterColumnsProps) => {
   return (
