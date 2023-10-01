@@ -12,7 +12,7 @@ const CreateProject = async () => {
       <h3 className="md:text-5xl text-3xl font-extrabold text-left max-w-5xl w-full">
         Create a New Project
       </h3>
-      <ProjectForm type="create" session={session} project={'s'} />
+      <ProjectForm type="create" session={session} />
     </Modal>
   );
 };
