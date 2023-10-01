@@ -1,8 +1,9 @@
 import { ProjectInterface } from "@/common.types";
+import ProjectCard from "@/components/ProjectCard";
 import { fetchAllProjects } from "@/lib/actions";
 
-type ProjectsSearch = {
-  projectsSearch: {
+type ProjectSearch = {
+  projectSearch: {
     edges: { node: ProjectInterface }[];
     pageInfo: {
       hasPreviousPage: boolean;
@@ -14,9 +15,10 @@ type ProjectsSearch = {
 };
 
 const Home = async () => {
-  const data = (await fetchAllProjects()) as ProjectsSearch;
+  const data = (await fetchAllProjects()) as ProjectSearch;
 
-  const projectsToDisplay = data?.projectsSearch?.edges || [];
+  const projectsToDisplay = data?.projectSearch?.edges || [];
+
   if (projectsToDisplay.length === 0) {
     return (
       <section className="flex items-center justify-start flex-col lg:px-20 py-6 px-5">
@@ -30,7 +32,19 @@ const Home = async () => {
   return (
     <section className="flex items-center justify-start flex-col paddings mb-16">
       <h1>Categories</h1>
-      <section className="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-10 w-full"></section>
+      <section className="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-10 w-full">
+        {projectsToDisplay.map(({ node }: { node: ProjectInterface }) => (
+          <ProjectCard
+            key={node?.id}
+            id={node?.id}
+            image={node?.image}
+            title={node?.title}
+            name={node?.createdBy?.name}
+            avatarUrl={node?.createdBy?.avatarUrl}
+            userId={node?.createdBy?.id}
+          />
+        ))}
+      </section>
       <h1>LoadMore</h1>
     </section>
   );

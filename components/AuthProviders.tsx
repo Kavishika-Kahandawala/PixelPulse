@@ -2,6 +2,7 @@
 
 import { getProviders, signIn } from "next-auth/react";
 import { useState, useEffect } from "react";
+import Button from "./Button";
 
 // This exact notation should be used - it's how next.js asks
 // do not change capitalizations at least
@@ -20,25 +21,28 @@ const AuthProviders = () => {
   const [providers, setProviders] = useState<Providers | null>(null);
 
   useEffect(() => {
-      const fetchProviders = async () => {
-          const res = await getProviders();
-  
-          setProviders(res);
-      }
+    const fetchProviders = async () => {
+      const res = await getProviders();
 
-      fetchProviders();
+      setProviders(res);
+    };
+
+    fetchProviders();
   }, []);
 
   if (providers) {
-      return (
-          <div>
-              {Object.values(providers).map((provider: Provider, index) => (
-              <button key={index} onClick={()=>signIn(provider?.id)}>{provider.id}</button>
-            ))}
-        </div>
-    )
-}
-
+    return (
+      <div>
+        {Object.values(providers).map((provider: Provider, index) => (
+          <Button
+            key={index}
+            title="Sign In"
+            handleClick={() => signIn(provider?.id)}
+          />
+        ))}
+      </div>
+    );
+  }
 };
 
 export default AuthProviders;
