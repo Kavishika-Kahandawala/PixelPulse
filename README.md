@@ -5,6 +5,10 @@ Deployed to production at https://pixelpulse.vercel.app/
 
 ## Technologies
 
+<a href="https://tailwindcss.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" height="80"/></a>
+&nbsp;
+<a href="https://tailwindcss.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" height="80"/></a>
+  <a href="https://tailwindcss.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" height="80"/></a>
 <a href="https://nextjs.org/">
       <svg aria-label="Next.js logomark" class="next-mark_root__iLw9v" height="80" role="img" viewBox="0 0 180 180" width="80"><mask height="180" id=":R0:mask0_408_134" maskUnits="userSpaceOnUse" style="mask-type:alpha" width="180" x="0" y="0"><circle cx="90" cy="90" fill="black" r="90"></circle></mask><g mask="url(#:R0:mask0_408_134)"><circle cx="90" cy="90" data-circle="true" fill="black" r="90"></circle><path d="M149.508 157.52L69.142 54H54V125.97H66.1136V69.3836L139.999 164.845C143.333 162.614 146.509 160.165 149.508 157.52Z" fill="url(#:R0:paint0_linear_408_134)"></path><rect fill="url(#:R0:paint1_linear_408_134)" height="72" width="12" x="115" y="54"></rect></g><defs><linearGradient gradientUnits="userSpaceOnUse" id=":R0:paint0_linear_408_134" x1="109" x2="144.5" y1="116.5" y2="160.5"><stop stop-color="white"></stop><stop offset="1" stop-color="white" stop-opacity="0"></stop></linearGradient><linearGradient gradientUnits="userSpaceOnUse" id=":R0:paint1_linear_408_134" x1="121" x2="120.799" y1="54" y2="106.875"><stop stop-color="white"></stop><stop offset="1" stop-color="white" stop-opacity="0"></stop></linearGradient></defs></svg>
 </a>
@@ -15,9 +19,7 @@ Deployed to production at https://pixelpulse.vercel.app/
   </a>
 &nbsp;
   <a href="https://tailwindcss.com/">
-    <svg viewBox="0 0 128 128" height="80">
-<path d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597 6.398-8.531 13.867-11.73 22.398-9.597 4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602-6.399 8.536-13.867 11.735-22.399 9.602-4.87-1.215-8.347-4.746-12.207-8.66-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66 6.274 6.367 13.536 13.738 29.395 13.738 17.066 0 27.73-8.53 32-25.597-6.399 8.531-13.867 11.73-22.399 9.597-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64zm0 0" fill="#38b2ac"></path>
-</svg> 
+    
   </a>
 &nbsp;
   <a href="https://jwt.io/">
@@ -62,7 +64,7 @@ Deployed to production at https://pixelpulse.vercel.app/
   <a href="https://cloudinary.com/">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 172.8 113.18" height="60"><defs><style>.cls-1{fill:#3448c5;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M140.25,40.27A57.84,57.84,0,0,0,85.56,0,56.75,56.75,0,0,0,35.24,29.9a42.79,42.79,0,0,0-10.33,81l1.08.5h.06V99.23a31.95,31.95,0,0,1,13.31-59l3-.31,1.31-2.74A46,46,0,0,1,85.56,10.85a46.83,46.83,0,0,1,45.19,35.79l1,4.11,4.23.07a26.56,26.56,0,0,1,26,26.44c0,10.11-5.83,18.36-15.72,22.55v11.55l.71-.24c15.95-5.21,25.86-18.19,25.86-33.86A37.49,37.49,0,0,0,140.25,40.27Z"/><path class="cls-1" d="M64.56,110l2.38,2.38a.47.47,0,0,1-.34.81H47.84a8.53,8.53,0,0,1-8.54-8.53V68.14a.47.47,0,0,0-.47-.47H34.76a.48.48,0,0,1-.34-.81L50.35,50.94a.46.46,0,0,1,.67,0L66.94,66.86a.47.47,0,0,1-.34.81H62.53a.47.47,0,0,0-.47.47V104A8.53,8.53,0,0,0,64.56,110Z"/><path class="cls-1" d="M99.76,110l2.38,2.38a.47.47,0,0,1-.34.81H83a8.53,8.53,0,0,1-8.54-8.53V77.32a.47.47,0,0,0-.47-.48H70a.48.48,0,0,1-.34-.81L85.55,60.11a.46.46,0,0,1,.67,0L102.14,76a.47.47,0,0,1-.34.81H97.73a.47.47,0,0,0-.47.48V104A8.53,8.53,0,0,0,99.76,110Z"/><path class="cls-1" d="M135,110l2.38,2.38a.47.47,0,0,1-.33.81H118.24a8.54,8.54,0,0,1-8.54-8.53V86.49a.47.47,0,0,0-.47-.47h-4.07a.47.47,0,0,1-.33-.81l15.92-15.93a.48.48,0,0,1,.67,0l15.92,15.93A.47.47,0,0,1,137,86h-4.08a.47.47,0,0,0-.47.47V104A8.53,8.53,0,0,0,135,110Z"/></g></g></svg>
   </a>
-  &nbsp
+  &nbsp;
   <a href="https://next-auth.js.org/"><img src="https://github.com/nextauthjs/next-auth/blob/main/docs/static/img/logo/logo-sm.png?raw=true" height="80"/></a>
 
 <br/>
