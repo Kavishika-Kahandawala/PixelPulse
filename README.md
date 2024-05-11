@@ -1,3 +1,5 @@
+:warning: <i>This project is no longer maintained. Due to changes in dependencies, this project is not compatible with the latest versions of Next.js and has been archived. Feel free to fork and adapt it if you find it useful :) </i>
+
 # PixelPulse
 
 This is a replication of the popular Dribbble website, which is a social platform for designers to share their work and get feedback from others. This clone application allows users to create an account, upload their designs, and browse other users' designs.<br/>
